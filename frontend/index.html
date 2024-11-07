@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookWorm Haven</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bienvenido a BookWorm Haven</h1>
+    <div id="literature-container">
+        <h2>Géneros Literarios</h2>
+        <ul>
+            <li><a href="#" onclick="fetchGenre(1)">Ficción Clásica</a></li>
+            <li><a href="#" onclick="fetchGenre(2)">Ciencia</a></li>
+            <li><a href="#" onclick="fetchGenre(3)">Filosofía</a></li>
+        </ul>
+        <h3>Libros Destacados</h3>
+        <div id="books-list"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
